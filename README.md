@@ -1,8 +1,8 @@
-# Descarga_MC_AFIP
+# Descarga CCMA de AFIP
 
-Bot de descarga de Mis Comprobantes de AFIP
+### Bot de descarga de Cuenta Corriente de Monotributistas y Autónomos de AFIP
 
-## El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido abierta y gratuitamente. 
+<br/>
 
 Los pasos para ejecutar el bot son los siguientes:
 
@@ -31,7 +31,7 @@ Cualquier cosa pueden contactarme en:
 
 <br/>
 
-## 💰 Acepto donaciones para mantener el proyecto libre y gratuito
+## 💰 Acepto donaciones para mantener los distintos proyectos
 <br/>
 
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/agustinbustosp) <!-- [<img src="http://ketekipo.com.ar/wp-content/uploads/2020/05/mercado-pago.png" alt="Image" height="30" width="100\">](https://paypal.me/paypal.me/agustinbustosp) -->
