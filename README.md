@@ -16,10 +16,11 @@ Para ejecutar desde la consola de comandos, se debe ejecutar el siguiente comand
 
     UiPath.exe run -file "Directorio completo\Archivo.xaml" -input "Directorio Completo\proyect.json"
 
+<br/>
 
-Obviamente no me hago cargo del uso indebido del bot (ej si haces cagada y si te llegan a bloquear tu CUIT porque detecten que usas un bot (salió en una RG que prohibe el inicio automatico con bots con la consecuencia de bloquear el CUIT))
+No me hago cargo del uso indebido del bot 
 
-y si lo compartís (hacelo gratis, mencioname también para que mas gente se meta en el mundo de RPA o mostrale mis videos para que vean que cosas pueden hacer)
+<br/>
 
 Cualquier cosa pueden contactarme en:
 
