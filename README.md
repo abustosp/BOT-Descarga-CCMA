@@ -2,7 +2,7 @@
 
 ### Bot de descarga de Cuenta Corriente de Monotributistas y Autónomos de AFIP
 
-<br/>
+</br>
 
 Los pasos para ejecutar el bot son los siguientes:
 
@@ -16,11 +16,10 @@ Para ejecutar desde la consola de comandos, se debe ejecutar el siguiente comand
 
     UiPath.exe run -file "Directorio completo\Archivo.xaml" -input "Directorio Completo\proyect.json"
 
-<br/>
 
-No me hago cargo del uso indebido del bot 
+Obviamente no me hago cargo del uso indebido del bot (ej si haces cagada y si te llegan a bloquear tu CUIT porque detecten que usas un bot (salió en una RG que prohibe el inicio automatico con bots con la consecuencia de bloquear el CUIT))
 
-<br/>
+y si lo compartís (hacelo gratis, mencioname también para que mas gente se meta en el mundo de RPA o mostrale mis videos para que vean que cosas pueden hacer)
 
 Cualquier cosa pueden contactarme en:
 
@@ -32,7 +31,8 @@ Cualquier cosa pueden contactarme en:
 
 <br/>
 
-## 💰 Acepto donaciones para mantener los distintos proyectos
+## 💰 Acepto donaciones para mantener el proyecto libre y gratuito
+
 <br/>
 
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/agustinbustosp) <!-- [<img src="http://ketekipo.com.ar/wp-content/uploads/2020/05/mercado-pago.png" alt="Image" height="30" width="100\">](https://paypal.me/paypal.me/agustinbustosp) -->
