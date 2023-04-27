@@ -1,6 +1,11 @@
 # Descarga CCMA de AFIP
 
+## El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido abierta y gratuitamente. 
+
+</br>
+
 ### Bot de descarga de Cuenta Corriente de Monotributistas y Autónomos de AFIP
+
 
 </br>
 
