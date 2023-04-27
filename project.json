@@ -1,6 +1,6 @@
 {
   "name": "Descarga CCMA",
-  "description": "Descarga de CCMA",
+  "description": "Descarga de CCMA desde la página de AFIP",
   "main": "Descarga_CCMA.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.16.0]",
@@ -56,6 +56,8 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {},
+  "publishData": {
+    "iconUrl": ".package/ABP blanco en fondo negro.png"
+  },
   "targetFramework": "Windows"
 }
