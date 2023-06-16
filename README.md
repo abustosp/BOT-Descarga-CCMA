@@ -39,6 +39,19 @@ El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente
 
 ---
 
+### Links de Interés:
+
+- Link de invitación al grupo de RPA en Discord: https://discord.gg/KVYyryvAcD
+
+- Link de invitación al grupo de RPA en WhatsApp: https://chat.whatsapp.com/IekktfvfTNLCkdIagO6xz3
+
+- Tutorial de Descarga de Bots desde Uipath: https://youtu.be/hD5BH7YzABw
+
+- Tutorial de Instalación y descarga de Repositorios con Git: https://youtu.be/ujk27tRdA80
+
+
+---
+
 Cualquier cosa pueden contactarme en:
 
 - https://www.linkedin.com/in/agust%C3%ADn-bustos-piasentini-468446122/
