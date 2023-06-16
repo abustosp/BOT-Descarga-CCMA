@@ -1,38 +1,51 @@
 # Descarga CCMA de AFIP
 
-## El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido abierta y gratuitamente. 
+Descarga de la cuenta corrientes de monotributistas y autónomos de AFIP masivamente.
 
-</br>
+---
 
-### Bot de descarga de Cuenta Corriente de Monotributistas y Autónomos de AFIP
+El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, sus derivados también deben ser distribuidos abierta y gratuitamente. 
+
+---
+
+## Instrucciones
 
 
-</br>
 
-Los pasos para ejecutar el bot son los siguientes:
+1. Crearse una cuenta en UiPath (https://www.uipath.com/)
 
-    ֎ Crearse una cuenta en UiPath (https://www.uipath.com/)
-
-    ֎ Descargar el Uipath Studio (https://www.uipath.com/studio) en la versión Community (es gratuita)
+2. Descargar el Uipath Studio (https://www.uipath.com/studio) en la versión Community (es gratuita)
     
-    ֎ Una vez instalado el Studio, se debe abrir el project.json o archivo .xaml y ejecutarlo. (se puede ejecutar desde el Studio o desde la consola de comandos)
+3. Una vez instalado el Studio, se debe abrir descargar el Proyecto. Acá hay 3 opciones:
 
-Para ejecutar desde la consola de comandos, se debe ejecutar el siguiente comando:
+    1. Descargar el Zip del proyecto (haciendo click en Download --> Download Zip) y descomprimirlo en una carpeta.
+    
+    2. Descargar el Proyecto desde la opción de Clone or checkaout de Uipath
 
-    UiPath.exe run -file "Directorio completo\Archivo.xaml" -input "Directorio Completo\proyect.json"
+    3. Clonar el repositorio (si tenes git instalado) con el comando 
+
+        ```console    
+        git clone https://github.com/abustosp/BOT-Descarga-CCMA
+        ```
 
 
-Obviamente no me hago cargo del uso indebido del bot (ej si haces cagada y si te llegan a bloquear tu CUIT porque detecten que usas un bot (salió en una RG que prohibe el inicio automatico con bots con la consecuencia de bloquear el CUIT))
+---
 
-y si lo compartís (hacelo gratis, mencioname también para que mas gente se meta en el mundo de RPA o mostrale mis videos para que vean que cosas pueden hacer)
+## Aclaraciones
+
+- La responsabilidad de ejecución del bot corre por cuenta de la persona que lo ejecute. El bot no tiene ningún tipo de garantía de funcionamiento, ni de resultados.
+
+- Si lo compartís hacelo gratis siguiendo los lineamientos de GPL, y optativamente mencioname también para que mas personas conozcan el mundo de RPA o mostrale mis videos para que vean que cosas pueden hacer.
+
+---
 
 Cualquier cosa pueden contactarme en:
 
-    https://www.linkedin.com/in/agust%C3%ADn-bustos-piasentini-468446122/
+- https://www.linkedin.com/in/agust%C3%ADn-bustos-piasentini-468446122/
 
-    https://www.youtube.com/user/agustinbustosp
+- https://www.youtube.com/user/agustinbustosp
 
-    whatsapp al https://wa.me/+5493764224695
+- whatsapp al https://wa.me/+5493764224695
 
 <br/>
 
