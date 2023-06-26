@@ -4,7 +4,7 @@ Descarga de la cuenta corrientes de monotributistas y autónomos de AFIP masivam
 
 ---
 
-El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, sus derivados también deben ser distribuidos abierta y gratuitamente. 
+El licenciamiento es con PL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, sus derivados también deben ser distribuidos abierta y gratuitamente. 
 
 ---
 
@@ -46,7 +46,7 @@ El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente
 
 - La responsabilidad de ejecución del bot corre por cuenta de la persona que lo ejecute. El bot no tiene ningún tipo de garantía de funcionamiento, ni de resultados.
 
-- Si lo compartís hacelo gratis siguiendo los lineamientos de GPL, y optativamente mencioname también para que mas personas conozcan el mundo de RPA o mostrale mis videos para que vean que cosas pueden hacer.
+- Si lo compartís hacelo gratis siguiendo los lineamientos de PL, y optativamente mencioname también para que mas personas conozcan el mundo de RPA o mostrale mis videos para que vean que cosas pueden hacer.
 
 ---
 
