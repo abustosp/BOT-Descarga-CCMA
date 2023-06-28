@@ -10,23 +10,43 @@ El licenciamiento es con PL (es decir que no se puede distribuir comercialmente,
 
 ## Instrucciones
 
+Los pasos para ejecutar el bot son los siguientes:
 
+1. Crearse una cuenta en UiPath ([https://www.uipath.com/](https://www.uipath.com/)).
 
-1. Crearse una cuenta en UiPath (https://www.uipath.com/)
+2. Descargar el Uipath Studio (https://www.uipath.com/studio) en la versión Community (es gratuita).
 
-2. Descargar el Uipath Studio (https://www.uipath.com/studio) en la versión Community (es gratuita)
-    
-3. Una vez instalado el Studio, se debe abrir descargar el Proyecto. Acá hay 3 opciones:
+3. Instalar la version el Studio (no la Studio X).
 
-    1. Descargar el Zip del proyecto (haciendo click en Download --> Download Zip) y descomprimirlo en una carpeta.
-    
-    2. Descargar el Proyecto desde la opción de Clone or checkaout de Uipath
+    - Si se instala la versión Studio X se debe cambiar la versión del proyecto a Studio X con desde las configuraciones
 
-    3. Clonar el repositorio (si tenes git instalado) con el comando 
+    ![Configuración de versión](https://github.com/abustosp/Configuraciones/blob/master/Uipath/Cambiar-a-Studio.png "Configuración de versión")
 
-        ```console    
-        git clone https://github.com/abustosp/BOT-Descarga-CCMA
-        ```
+      - Si no permite hacer este cambio se debe:
+
+        1. Iniciar sesión en Uipath cloud.
+
+        2. Eliminar la organización.
+
+        3. Crear una nueva organización.
+
+4. Descargar el BOT. Acá hay 3 opciones:
+   
+   1. Descargar el ZIP.
+   
+   2. Descargarlo con la integración de GIT desde el Uipath.
+
+     - Si no aparece la opción de GIT en el Uipath se debe instalar el GIT desde las configuraciones de Uipath
+
+     ![Configuración de GIT](https://github.com/abustosp/Configuraciones/blob/master/Uipath/Habilitar-GIT.png "Configuración de GIT")
+   
+   3. Descargar el repositorio con GIT utilizando el comando `git clone https://github.com/abustosp/BOT-Descarga-CCMA.git`
+
+5. Una vez Descargados los archivos se debe:
+   
+   1. Abrir el project.json o archivo .xaml
+   
+   2. Ejecutarlo (hacer click en el boton de "Play").
 
 ---
 
@@ -39,6 +59,24 @@ El licenciamiento es con PL (es decir que no se puede distribuir comercialmente,
 - Las ubicaciones del Excel deben ir desde el Disco hasta la Ubicación completa con un backslash final (ejemplo: `C:\Users\Agustin Bustos\Desktop\TEST\`)
   
   - Los de la ventana emergente inicial van sin el último backslash (ejemplo: `C:\Users\Agustin Bustos\Desktop\Test`) y es importante que esa ubicación exista. Esta ubicación se utiliza solamente cuando la dirección de descarga del Excel este vacío
+  
+ - El Bot corre en Firefox (se puede configurar para Chrome pero se recomienda el primero por temas de rendimiento) y en Windows 10 cómo mínimo.
+
+  - Firefox se debe configurar de la siguiente manera:
+
+    1. El idioma tiene que estar en Español de Argentina
+
+    ![Configuración de idioma](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Idioma-Espa%C3%B1ol-ARG.png "Configuración de idioma")
+
+    2. La descarga de archivos debe estar configurada para que se pregunte donde guardarlos
+
+    ![Configuración de descarga](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Ubicacion-de-descargas.png "Configuración de descarga")
+
+    3. La descarga de archivos debe estar configurada para que no se pregunte si se quiere guardar el archivo (si el archivo aparece en la lista tiene que estar configurado con la opción de "Guardar Archivo" por ejemplo en el caso de los PDF y XLSX o planillas de cálculo)
+
+    ![Configuración de descarga](https://github.com/abustosp/Configuraciones/blob/master/Firefox/Descarga-de-Archivos.png "Configuración de descarga")
+
+
   
 ---
 
