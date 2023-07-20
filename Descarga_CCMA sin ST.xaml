@@ -816,25 +816,33 @@
                                               </Sequence>
                                             </If.Then>
                                             <If.Else>
-                                              <Sequence sap:VirtualizedContainerService.HintSize="442,289" sap2010:WorkflowViewState.IdRef="Sequence_77">
+                                              <Sequence sap:VirtualizedContainerService.HintSize="554,1150" sap2010:WorkflowViewState.IdRef="Sequence_77">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <ui:NavigateTo Browser="{x:Null}" DisplayName="Navigate To" sap:VirtualizedContainerService.HintSize="400,69" sap2010:WorkflowViewState.IdRef="NavigateTo_1" Url="https://auth.afip.gob.ar/contribuyente_/login.xhtml" />
-                                                <Sequence DisplayName="Error de contraseña" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_87">
+                                                <ui:NavigateTo Browser="{x:Null}" DisplayName="Navigate To" sap:VirtualizedContainerService.HintSize="512,60" sap2010:WorkflowViewState.IdRef="NavigateTo_1" Url="https://auth.afip.gob.ar/contribuyente_/login.xhtml" />
+                                                <Sequence DisplayName="Error de contraseña" sap:VirtualizedContainerService.HintSize="512,962" sap2010:WorkflowViewState.IdRef="Sequence_87">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                  <ui:WriteCell Cell="[&quot;A&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="338,125" sap2010:WorkflowViewState.IdRef="WriteCell_11" SheetName="Control" Text="[row(&quot;Cliente&quot;).ToString]" WorkbookPath="Control descarga CCMA.xlsx" />
-                                                  <ui:WriteCell Cell="[&quot;B&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="338,125" sap2010:WorkflowViewState.IdRef="WriteCell_12" SheetName="Control" Text="[row(&quot;CUIT en pagina&quot;).ToString]" WorkbookPath="Control descarga CCMA.xlsx" />
-                                                  <ui:WriteCell Cell="[&quot;C&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="338,125" sap2010:WorkflowViewState.IdRef="WriteCell_13" SheetName="Control" Text="[row(&quot;Periodo&quot;).ToString]" WorkbookPath="Control descarga CCMA.xlsx" />
-                                                  <ui:WriteCell Cell="[&quot;D&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="338,125" sap2010:WorkflowViewState.IdRef="WriteCell_14" SheetName="Control" Text="[row(&quot;CUIT en pagina&quot;).ToString + &quot; - &quot; + row(&quot;Periodo&quot;).ToString]" WorkbookPath="Control descarga CCMA.xlsx" />
-                                                  <ui:WriteCell Cell="[&quot;E&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="338,125" sap2010:WorkflowViewState.IdRef="WriteCell_15" SheetName="Control" Text="x" WorkbookPath="Control descarga CCMA.xlsx" />
+                                                  <Sequence DisplayName="Check Listos" sap:VirtualizedContainerService.HintSize="450,851" sap2010:WorkflowViewState.IdRef="Sequence_98">
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                    <ui:WriteCell Cell="[&quot;A&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="388,116" sap2010:WorkflowViewState.IdRef="WriteCell_16" SheetName="Control" Text="[row(&quot;Cliente&quot;).ToString]" WorkbookPath="Control descarga CCMA.xlsx" />
+                                                    <ui:WriteCell Cell="[&quot;B&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="388,116" sap2010:WorkflowViewState.IdRef="WriteCell_17" SheetName="Control" Text="[row(&quot;CUIT en pagina&quot;).ToString]" WorkbookPath="Control descarga CCMA.xlsx" />
+                                                    <ui:WriteCell Cell="[&quot;C&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="388,116" sap2010:WorkflowViewState.IdRef="WriteCell_18" SheetName="Control" Text="[row(&quot;CCMA&quot;).ToString]" WorkbookPath="Control descarga CCMA.xlsx" />
+                                                    <ui:WriteCell Cell="[&quot;D&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="388,116" sap2010:WorkflowViewState.IdRef="WriteCell_19" SheetName="Control" Text="[string.Format(&quot;{0}-{1}&quot; , row(&quot;CUIT en pagina&quot;) , row(&quot;Desde&quot;) )]" WorkbookPath="Control descarga CCMA.xlsx" />
+                                                    <ui:WriteCell Cell="[&quot;E&quot; + Row(&quot;Fila&quot;).ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="388,116" sap2010:WorkflowViewState.IdRef="WriteCell_20" SheetName="Control" Text="x" WorkbookPath="Control descarga CCMA.xlsx" />
+                                                  </Sequence>
                                                 </Sequence>
                                               </Sequence>
                                             </If.Else>
