@@ -12,7 +12,6 @@ def CCMA():
     
     '''
     
-    Texto = []
     df = pd.DataFrame(columns=['Periodo', 'Concepto', 'Fecha de consulta', 'Monto', 'Archivo'])
     Archivos = []
 
@@ -34,8 +33,8 @@ def CCMA():
         with pdfplumber.open(i) as pdf:
             pages = pdf.pages
             for page in pdf.pages:
-                # Transformar en dataframe utilizando RegEx del grupo 1 y 4 de la siguiente expresión regular r'(\d+/\d+)\s(Saldo)\s(\d+/\d+/\d+)\s(\d+.\d+)'
-                RegEx_Del_PDF = re.findall(r'(\d+/\d+)\s(Saldo)\s(\d+/\d+/\d+)\s(\d+.\d+)', page.extract_text() )
+                # Transformar en dataframe utilizando RegEx del grupo 1 y 4 de la siguiente expresión regular r'(\d+/\d+)\s(Saldo)\s(\d+/\d+/\d+)\s(\W?\d+.\d+\W?)'
+                RegEx_Del_PDF = re.findall(r'(\d+/\d+)\s(Saldo)\s(\d+/\d+/\d+)\s(\W?\d+.\d+\W?)', page.extract_text() )
 
                 # Transformar  RegEx_Del_PDF en dataframe donde la columna 0 es el 'Periodo', la columna 1 es el 'Concepto', la columna 2 es la 'Fecha de consulta' y la columna 3 es el monto y la columna 4 es el nombre del archivo PDF Leido
                 for REg in RegEx_Del_PDF:
@@ -48,7 +47,7 @@ def CCMA():
     df['Cliente'] = df['Archivo'].str.split('-').str[4].str.strip().str.replace('.pdf', '')
 
     # Transormar la columna 'Monto' en float
-    df['Monto'] = df['Monto'].str.replace(',', '').str.replace(',', '.')
+    df['Monto'] = df['Monto'].str.replace(',', '').str.replace(',', '.').str.replace(')', '').str.replace('(', '-')
     df['Monto'] = df['Monto'].astype(float)
 
     # Crear una tabla dinámica con los datos de 'Cliente y 'Monto' y sumar los montos
