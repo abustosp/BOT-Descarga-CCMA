@@ -48,6 +48,7 @@ def CCMA():
     df['Cliente'] = df['Archivo'].str.split('-').str[4].str.strip().str.replace('.pdf', '')
 
     # Transormar la columna 'Monto' en float
+    df['Monto'] = df['Monto'].str.replace(',', '').str.replace(',', '.')
     df['Monto'] = df['Monto'].astype(float)
 
     # Crear una tabla dinámica con los datos de 'Cliente y 'Monto' y sumar los montos
