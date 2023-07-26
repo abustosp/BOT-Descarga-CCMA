@@ -50,6 +50,12 @@ Los pasos para ejecutar el bot son los siguientes:
 
 ---
 
+## Instrucciones para ejecutar el Programa
+
+Una vez Descargados los PDF y el programa (se descarga desde Releases). Se lo debe ejecutar con doble click y finalmente hacer click en Procesar.
+
+---
+
 ## Particularidades del BOT:
 
 
