@@ -21,5 +21,6 @@
   "UiPath.UiAutomation.Activities.MicrosoftAzureComputerVisionOCR.ApiKey": "",
   "UiPath.UiAutomation.Activities.MicrosoftAzureComputerVisionOCR.Endpoint": "",
   "UiPath.UiAutomation.Activities.MicrosoftAzureComputerVisionOCR.Scale": "1",
-  "UiPath.UiAutomation.Activities.MicrosoftAzureComputerVisionOCR.Language": "AutoDetect"
+  "UiPath.UiAutomation.Activities.MicrosoftAzureComputerVisionOCR.Language": "AutoDetect",
+  "UiPath.UiAutomation.Activities.GoogleCloudOCR.Region": "Global"
 }
