@@ -336,7 +336,7 @@
                                 </If.Else>
                               </If>
                               <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="794,90" sap2010:WorkflowViewState.IdRef="Delay_55" />
-                              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Seleccionar AFIP" sap:VirtualizedContainerService.HintSize="794,5111" sap2010:WorkflowViewState.IdRef="BrowserScope_18" InformativeScreenshot="1144edb24e6970bd18c869c19b7fa7c2" Selector="&lt;html app='firefox.exe' title='*Clave Fiscal*' /&gt;">
+                              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Seleccionar AFIP" sap:VirtualizedContainerService.HintSize="794,5111" sap2010:WorkflowViewState.IdRef="BrowserScope_18" InformativeScreenshot="1144edb24e6970bd18c869c19b7fa7c2" Selector="&lt;html app='firefox.exe' title='*Clave F?scal*' /&gt;">
                                 <ui:BrowserScope.Body>
                                   <ActivityAction x:TypeArguments="x:Object">
                                     <ActivityAction.Argument>
@@ -710,7 +710,7 @@
                                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                       </scg:Dictionary>
                                                     </sap:WorkflowViewStateService.ViewState>
-                                                    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Selecionar página principal de AFIP" sap:VirtualizedContainerService.HintSize="484,512" sap2010:WorkflowViewState.IdRef="BrowserScope_15" InformativeScreenshot="cb4e29c785dd6c0a78adb6be515e6b01" Selector="&lt;html app='firefox.exe' title='*Clave Fiscal*' /&gt;">
+                                                    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Selecionar página principal de AFIP" sap:VirtualizedContainerService.HintSize="484,512" sap2010:WorkflowViewState.IdRef="BrowserScope_15" InformativeScreenshot="cb4e29c785dd6c0a78adb6be515e6b01" Selector="&lt;html app='firefox.exe' title='*Clave F?scal*' /&gt;">
                                                       <ui:BrowserScope.Body>
                                                         <ActivityAction x:TypeArguments="x:Object">
                                                           <ActivityAction.Argument>
