@@ -349,7 +349,7 @@
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:UiElementExists DisplayName="Existencia de Mis servicios" Exists="[MisServicios]" sap:VirtualizedContainerService.HintSize="706,107" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                                      <ui:UiElementExists DisplayName="Existencia de Mis servicios" Exists="[MisServicios]" sap:VirtualizedContainerService.HintSize="720,107" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
                                         <ui:UiElementExists.Target>
                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7054df97-5e5a-4c13-884b-a0e83e007093" InformativeScreenshot="eb5b833e7ef1a21fb8f83e444964c491" Selector="&lt;webctrl aaname='Ver todos' omit:parentid='serviciosMasUtilizados' /&gt;" TimeoutMS="1000" WaitForReady="COMPLETE" />
                                         </ui:UiElementExists.Target>
@@ -385,7 +385,7 @@
                                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <ui:Click DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DelayBefore="1" DisplayName="Click Mis servicios" sap:VirtualizedContainerService.HintSize="568,107" sap2010:WorkflowViewState.IdRef="Click_128" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                              <ui:Click DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DelayBefore="1" DisplayName="Click Mis servicios" sap:VirtualizedContainerService.HintSize="582,107" sap2010:WorkflowViewState.IdRef="Click_128" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                                 <ui:Click.CursorPosition>
                                                   <ui:CursorPosition Position="Center">
                                                     <ui:CursorPosition.OffsetX>
@@ -407,7 +407,7 @@
                                                   </ui:Target>
                                                 </ui:Click.Target>
                                               </ui:Click>
-                                              <ui:Click DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DelayBefore="1" DisplayName="Click CCMA" sap:VirtualizedContainerService.HintSize="568,107" sap2010:WorkflowViewState.IdRef="Click_110" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                              <ui:Click DelayMS="{x:Null}" SendWindowMessages="{x:Null}" AlterIfDisabled="True" ClickType="CLICK_SINGLE" DelayBefore="1" DisplayName="Click CCMA" sap:VirtualizedContainerService.HintSize="582,107" sap2010:WorkflowViewState.IdRef="Click_110" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
                                                 <ui:Click.CursorPosition>
                                                   <ui:CursorPosition Position="Center">
                                                     <ui:CursorPosition.OffsetX>
@@ -429,7 +429,7 @@
                                                   </ui:Target>
                                                 </ui:Click.Target>
                                               </ui:Click>
-                                              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Seleccionar CCMA" sap:VirtualizedContainerService.HintSize="582,2333" sap2010:WorkflowViewState.IdRef="BrowserScope_17" InformativeScreenshot="9f49c05d5921e156bc9c5f638e85ffba" Selector="&lt;html app='firefox.exe' title='CCAM - CUENTA CORRIENTE PARA CONTRIBUYENTES AUTONOMOS/MONOTRIBUTISTAS' /&gt;">
+                                              <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Firefox" DisplayName="Seleccionar CCMA" sap:VirtualizedContainerService.HintSize="582,2333" sap2010:WorkflowViewState.IdRef="BrowserScope_17" InformativeScreenshot="9f49c05d5921e156bc9c5f638e85ffba" Selector="&lt;html app='firefox.exe' title='CCAM - CUENTA CORRIENTE PARA CONTRIBUYENTES AUTÓNOMOS/MONOTRIBUTISTAS' /&gt;">
                                                 <ui:BrowserScope.Body>
                                                   <ActivityAction x:TypeArguments="x:Object">
                                                     <ActivityAction.Argument>
@@ -615,7 +615,7 @@
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
                                                       </ui:SendHotkey>
-                                                      <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="472,133" sap2010:WorkflowViewState.IdRef="SendHotkey_35" Key="enter" KeyModifiers="None" SpecialKey="True">
+                                                      <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="486,133" sap2010:WorkflowViewState.IdRef="SendHotkey_35" Key="enter" KeyModifiers="None" SpecialKey="True">
                                                         <ui:SendHotkey.Target>
                                                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="aab32c3f-1240-454d-a648-9b7bf8afeabb">
                                                             <ui:Target.TimeoutMS>
@@ -627,7 +627,7 @@
                                                           </ui:Target>
                                                         </ui:SendHotkey.Target>
                                                       </ui:SendHotkey>
-                                                      <Sequence DisplayName="Escribir nombre" sap:VirtualizedContainerService.HintSize="472,859" sap2010:WorkflowViewState.IdRef="Sequence_99">
+                                                      <Sequence DisplayName="Escribir nombre" sap:VirtualizedContainerService.HintSize="486,859" sap2010:WorkflowViewState.IdRef="Sequence_99">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
